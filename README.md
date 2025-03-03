@@ -7,17 +7,18 @@
 </p>
 
 
+<h2 id="live-demo">🌐 Live Demo</h2>
+
+<p>Check out the live demo of the project hosted on GitHub Pages:</p>
+
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#technologies-used">Technologies Used</a> •
-  <a href="#how-to-run">How to Run</a> •
-  <a href="#file-structure">File Structure</a> •
-  <a href="#live-demo">Live Demo</a> •
-  <a href="#contribution">Contribution</a> •
-  <a href="#license">License</a>
+  <a href="https://your-username.github.io/furniro" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Demo-View_Online-green?style=for-the-badge&logo=github" alt="Live Demo">
+  </a>
 </p>
 
 ---
+
 
 <h2 id="features">✨ Features</h2>
 
@@ -77,17 +78,6 @@ furniro/
 
 ---
 
-<h2 id="live-demo">🌐 Live Demo</h2>
-
-<p>Check out the live demo of the project hosted on GitHub Pages:</p>
-
-<p align="center">
-  <a href="https://your-username.github.io/furniro" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-View_Online-green?style=for-the-badge&logo=github" alt="Live Demo">
-  </a>
-</p>
-
----
 
 <h2 id="contribution">🤝 Contribution</h2>
 
