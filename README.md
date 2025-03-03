@@ -6,9 +6,6 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
-<p align="center">
-  <strong>Furniro</strong> is a modern and responsive e-commerce website designed for selling furniture. It provides a seamless user experience with a clean and elegant design.
-</p>
 
 <p align="center">
   <a href="#features">Features</a> •
@@ -103,12 +100,6 @@ furniro/
   <li>Push to the branch (<code>git push origin feature/YourFeatureName</code>).</li>
   <li>Open a Pull Request.</li>
 </ol>
-
----
-
-<h2 id="license">📜 License</h2>
-
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
 ---
 
