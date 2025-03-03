@@ -1,0 +1,589 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Montserrat", sans-serif;
+    --bg-color: #f4f4f4;
+    --btn-color: #cf9517;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    margin: 5px;
+    background-color: white;
+    padding: 20px 60px;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--second-family);
+    font-weight: 600;
+}
+
+.nav ul li a.active,
+.nav ul li a:hover {
+    color: var(--primary-color);
+}
+
+.header-icons a {
+    margin-left: 20px;
+}
+
+.header-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+/* ------------------------------------------------------------ */
+
+
+.hero {
+    background: url('img/hero-bg.jpg') no-repeat center center/cover;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.content {
+
+
+    background: #f8ecd9;
+    padding: 30px;
+    width: 40%;
+    height: 50%;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    color: #030303;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 65px;
+    color: #aa732c;
+}
+
+p {
+    color: #080707;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #aa732c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+
+.browse {
+
+    text-align: center;
+}
+
+.browse h1 {
+    padding-top: 50px;
+    color: #030303;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.browse p {
+    color: #7c7a79;
+
+}
+
+
+
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+
+}
+
+.card {
+    text-align: center;
+    background: #fff;
+
+    width: 500px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #000000;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+
+
+
+/* ------------------------------------------------------------ */
+
+
+
+
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+
+}
+
+.card {
+    text-align: center;
+    background: #fff;
+
+    width: 500px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #000000;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------ */
+
+.our-products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.our-products h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.our-products p {
+    font-size: 18px;
+
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.product-card {
+    background-color: #f0f0f0;
+    width: 280px;
+    height: 400px;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 70%;
+
+    object-fit: cover;
+
+}
+
+.product-card h3 {
+    font-size: 22px;
+
+    color: #333;
+    margin: 10px 15px;
+
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 15px;
+
+}
+
+.product-card a {
+    display: inline-block;
+    color: #fff;
+    background-color: #aa732c;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 16px;
+
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 15px;
+
+}
+
+
+.btn-ourProducts {
+    margin-top: 50px;
+}
+
+/* ------------------------------------------------------------ */
+
+
+
+
+.thirdPage {
+
+    background-color: #f7f3ec;
+
+}
+
+
+.banner1 {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.banner1 h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.banner1 p {
+    color: #777;
+    margin: 20px 0;
+}
+
+.banner1 .btn {
+    display: inline-block;
+    background-color: #d4a75a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner2 {
+    flex: 2;
+    display: flex;
+    gap: 10px;
+}
+
+.banner2 .image {
+    flex: 1;
+    position: relative;
+}
+
+.banner2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.navigation {
+    margin-right: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navigation div {
+    width: 10px;
+    height: 10px;
+    background: #d4a75a;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/* -------------------------------------------------------- */
+
+.last-page {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.last-page h1 {
+
+    color: #000;
+}
+
+.last-page .pic1 {
+
+    margin-right: 10px;
+
+
+}
+
+.last-page .pic2 {
+
+    margin-right: 10px;
+
+
+}
+
+.last-page .pic3 {
+
+    margin-right: 10px;
+    position: relative;
+
+    top: 200px;
+
+
+}
+
+.last-page .pic4 {
+
+    margin-right: 10px;
+
+
+}
+
+.last-page .pic5 {
+
+    margin-right: 10px;
+    margin-left: 21%;
+
+
+}
+
+.last-page .pic9 {
+
+    margin-right: 10px;
+
+
+}
+
+
+/* ------------------------------------------------------------ */
+
+footer {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding: 0 80px;
+    border: 1px solid #a0a0a0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin: 50px;
+    font-size: 18px;
+
+    color: #333;
+}
+
+
+
+.footer-section p,
+.footer-section a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    margin: 50px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+
+.newsletter input[type="email"] {
+
+    padding: 8px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter button {
+
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.newsletter button:hover {
+    background-color: #000;
+}
+
+.footer-bottom {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+}
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        width: 200px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav ul.active {
+        display: flex;
+    }
+
+    .nav ul li {
+        margin: 10px 0;
+    }
+
+    .header-icons {
+        display: none;
+    }
+
+    .hero {
+        height: 60vh;
+    }
+
+    .content {
+        width: 80%;
+        height: auto;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner2 {
+        flex-direction: column;
+    }
+
+    .last-page-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-section {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .products-container {
+        grid-template-columns: 1fr;
+    }
+
+    .last-page-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+}

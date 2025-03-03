@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="img/icons/logo.png" alt="Furniro Logo" class="logo-img">
+                <img src="img/icons/SkinClinic.png" alt="Skin Clinic" class="skin-logo">
+            </div>
+            <!-- Navigation -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Icons -->
+            <div class="header-icons">
+                <a href="#"><img src="img/icons/user.png" alt="User"></a>
+                <a href="#"><img src="img/icons/heart.png" alt="Wishlist"></a>
+                <a href="#"><img src="img/icons/cart.png" alt="Cart"></a>
+            </div>
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ---------------------------------------------------------------------------- -->
+
+    <section class="hero">
+        <div class="content">
+            <h4>New Arrival</h4>
+            <h1>Discover Our New Collection</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+            </p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+
+    <div class="browse">
+        <h1>Browse The Range</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+
+    </div>
+
+    <section class="banner">
+        <div class="card">
+            <img src="img/image 106.png" alt="Dining">
+            <p>Dining</p>
+        </div>
+        <div class="card">
+            <img src="img/image 101.png" alt="Living">
+            <p>Living</p>
+        </div>
+        <div class="card">
+            <img src="img/image 100.png" alt="Bedroom">
+            <p>Bedroom</p>
+        </div>
+    </section>
+
+    <section class="our-products">
+    <h2>Our Products</h2>
+    <p>Explore our wide range of high-quality products!</p>
+    <div class="products-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+        <!-- Product 1 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 1.png" alt="Product 1" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Syltherine</h3>
+            <p>Stylish cafe chair</p>
+            <h3>Rp 2.500.000</h3>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 3.png" alt="Product 3" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Leviosa</h3>
+            <p>Stylish cafe chair</p>
+            <h3>Rp 2.500.000</h3>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 4.png" alt="Product 4" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Lolito</h3>
+            <p>Luxury big sofa</p>
+            <h3>Rp 7.000.000</h3>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 6.png" alt="Product 6" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Respira</h3>
+            <p>Outdoor bar table and stool</p>
+            <h3>Rp 500.000</h3>
+        </div>
+        <!-- Product 5 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 7.png" alt="Product 7" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Grifo</h3>
+            <p>Night lamp</p>
+            <h3>Rp 1.500.000</h3>
+        </div>
+        <!-- Product 6 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 8.png" alt="Product 8" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Muggo</h3>
+            <p>Small mug</p>
+            <h3>Rp 150.000</h3>
+        </div>
+        <!-- Product 7 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/Image 9.png" alt="Product 9" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Pingky</h3>
+            <p>Cute bed set</p>
+            <h3>Rp 7.000.000</h3>
+        </div>
+        <!-- Product 8 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 6.png" alt="Product 10" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Potty</h3>
+            <p>Minimalist flower pot</p>
+            <p>Rp 500.000</p>
+        </div>
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 3.png" alt="Product 3" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Leviosa</h3>
+            <p>Stylish cafe chair</p>
+            <h3>Rp 2.500.000</h3>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 4.png" alt="Product 4" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Lolito</h3>
+            <p>Luxury big sofa</p>
+            <h3>Rp 7.000.000</h3>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 6.png" alt="Product 6" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Respira</h3>
+            <p>Outdoor bar table and stool</p>
+            <h3>Rp 500.000</h3>
+        </div>
+        <!-- Product 5 -->
+        <div class="product-card" style="background-color: #f0f0f0; width: 280px; height: 400px; padding: 0; overflow: hidden; text-align: left; border-radius: 8px;">
+            <img src="img/products/image 7.png" alt="Product 7" style="width: 100%; height: 70%; object-fit: cover;">
+            <h3>Grifo</h3>
+            <p>Night lamp</p>
+            <h3>Rp 1.500.000</h3>
+        </div>
+    </div>
+    <button class="btn-ourProducts" style="margin-top: 50px;">Show More</button>
+</section>
+
+    <section class="thirdPage">
+
+        <div class="container">
+
+            <div class="banner1">
+                <h1>50+ Beautiful rooms inspiration</h1>
+                <p>Our designer already made a lot of beautiful prototypes of rooms that inspire you.</p>
+                <a href="#" class="btn">Explore More</a>
+            </div>
+            <div class="banner2">
+                <div class="image">
+                    <img src="img/banner1.png" alt="Room 1">
+
+                </div>
+                <div class="image">
+                    <img src="img/banner2.png" alt="Room 2">
+                    <div class="navigation">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="last-page">
+        <p>Share your setup with</p>
+        <h1>#FuniroFurniture</h1>
+        <div class="last-page-gallery">
+            <img src="img/lastpage//Rectangle 36.png" class="pic1">
+            <img src="img/lastpage/Rectangle 38.png" class="pic2">
+            <img src="img/lastpage/Rectangle 40.png" class="pic3">
+            <img src="img/lastpage/Rectangle 43.png" class="pic9">
+            <img src="img/lastpage/Rectangle 45.png" class="pic4">
+
+            <img src="img/lastpage/Rectangle 37.png" class="pic6">
+            <img src="img/lastpage/Rectangle 39.png" class="pic7">
+            <img src="img/lastpage/Rectangle 41.png" class="pic5">
+            <img src="img/lastpage//Rectangle 44.png" class="pic8">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Section 1 -->
+            <div class="footer-section">
+                <h3>Funiro.</h3>
+                <p>400 University Drive Suite 200 Coral Gables,</p>
+                <p>FL 33134 USA</p>
+            </div>
+            <!-- Section 2 -->
+            <div class="footer-section">
+                <h3>Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <!-- Section 3 -->
+            <div class="footer-section">
+                <h3>Help</h3>
+                <a href="#">Payment Options</a>
+                <a href="#">Returns</a>
+                <a href="#">Privacy Policies</a>
+            </div>
+            <!-- Section 4 -->
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter Your Email Address" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>2023 Funiro. All rights reserved</p>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.nav ul');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
