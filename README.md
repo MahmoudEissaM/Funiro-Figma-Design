@@ -12,7 +12,7 @@
 <p>Check out the live demo of the project hosted on GitHub Pages:</p>
 
 <p align="center">
-  <a href="https://your-username.github.io/furniro" target="_blank">
+  <a href="https://mahmoudeissam.github.io/Funiro-Figma-Design/" target="_blank">
     <img src="https://img.shields.io/badge/Live_Demo-View_Online-green?style=for-the-badge&logo=github" alt="Live Demo">
   </a>
 </p>
