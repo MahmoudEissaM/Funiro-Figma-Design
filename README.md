@@ -98,6 +98,6 @@ furniro/
 <p>If you have any questions or suggestions, feel free to reach out:</p>
 
 <ul>
-  <li><strong>Email</strong>: your-email@example.com</li>
+  <li><strong>Email</strong>: mahmoudessa8200@gmail.com</li>
   <li><strong>GitHub</strong>: <a href="https://github.com/your-username">your-username</a></li>
 </ul>
